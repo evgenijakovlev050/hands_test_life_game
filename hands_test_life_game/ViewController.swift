@@ -44,7 +44,8 @@ final class ViewController: UIViewController {
         button.layer.cornerRadius = 4
         button.clipsToBounds = true
         button.backgroundColor = .purple
-        button.setTitle("Сотворить", for: .normal)
+        button.setTitle("СОТВОРИТЬ", for: .normal)
+        button.titleLabel?.font = UIFont(name: "Roboto-Bold", size: 14)
         button.addTarget(self, action: #selector(buttonClicked),
                          for: .touchUpInside)
         view.addSubview(button)
@@ -186,7 +187,7 @@ final class SectionHeaderView: UICollectionReusableView {
         let label = UILabel()
         label.text = "Клеточное наполнение"
         label.textColor = .white
-        label.font = UIFont(name: "HelveticaNeue-Bold", size: 20)
+        label.font = UIFont(name: "Roboto-Bold", size: 20)
         label.textAlignment = .center
         return label
     }()

@@ -15,6 +15,8 @@
 		4A2F49D82C0A1CC5001D60B9 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2F49D72C0A1CC5001D60B9 /* CustomCell.swift */; };
 		4A2F49DB2C0A247C001D60B9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2F49DA2C0A247C001D60B9 /* SnapKit */; };
 		4A2F49DD2C0A247C001D60B9 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 4A2F49DC2C0A247C001D60B9 /* SnapKit-Dynamic */; };
+		4A2F49E12C0B5CEA001D60B9 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2F49E02C0B5CEA001D60B9 /* Roboto-Regular.ttf */; };
+		4A2F49E32C0B5E59001D60B9 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A2F49E22C0B5E59001D60B9 /* Roboto-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		4A2F49CF2C0A13C5001D60B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A2F49D12C0A13C5001D60B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A2F49D72C0A1CC5001D60B9 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		4A2F49E02C0B5CEA001D60B9 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		4A2F49E22C0B5E59001D60B9 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		4A2F49C22C0A13C3001D60B9 /* hands_test_life_game */ = {
 			isa = PBXGroup;
 			children = (
+				4A2F49E02C0B5CEA001D60B9 /* Roboto-Regular.ttf */,
+				4A2F49E22C0B5E59001D60B9 /* Roboto-Bold.ttf */,
 				4A2F49C32C0A13C3001D60B9 /* AppDelegate.swift */,
 				4A2F49C52C0A13C3001D60B9 /* SceneDelegate.swift */,
 				4A2F49C72C0A13C3001D60B9 /* ViewController.swift */,
@@ -136,7 +142,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A2F49E12C0B5CEA001D60B9 /* Roboto-Regular.ttf in Resources */,
 				4A2F49D02C0A13C5001D60B9 /* LaunchScreen.storyboard in Resources */,
+				4A2F49E32C0B5E59001D60B9 /* Roboto-Bold.ttf in Resources */,
 				4A2F49CD2C0A13C5001D60B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

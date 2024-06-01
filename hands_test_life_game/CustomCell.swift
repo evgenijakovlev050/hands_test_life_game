@@ -20,14 +20,14 @@ final class CustomCell: UICollectionViewCell {
     private let firstLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont(name: "HelveticaNeue-Bold", size: 20)
+        label.font = UIFont(name: "Roboto-Bold", size: 20)
         return label
     }()
     
     private let secondLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
-        label.font = UIFont(name: "HelveticaNeue", size: 14)
+        label.font = UIFont(name: "Roboto-Regular", size: 14)
         return label
     }()
     
@@ -50,12 +50,15 @@ final class CustomCell: UICollectionViewCell {
         let mainStackView = UIStackView(arrangedSubviews: [avatarImageView, innerStackView])
         mainStackView.axis = .horizontal
         mainStackView.alignment = .top
-        mainStackView.spacing = 10
+        mainStackView.spacing = 16
         
         contentView.addSubview(mainStackView)
         
         mainStackView.snp.makeConstraints { make in
-            make.edges.equalToSuperview().offset(16)
+            make.leading.equalToSuperview().offset(16)
+            make.trailing.equalToSuperview().offset(-16)
+            make.bottom.equalToSuperview().offset(-16)
+            make.top.equalToSuperview().offset(16)
         }
         
         avatarImageView.snp.makeConstraints { make in
